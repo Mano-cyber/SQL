@@ -113,7 +113,7 @@ VALUES ('Art'),
 ('Traveling'),
 ('Gaming'),
 ('Gardening'),
-('Reading'),
+('Coding'),
 ('Reading'),
 ('Cooking'),
 ('Music'),
@@ -133,21 +133,21 @@ SELECT * FROM seeking
 
 
 INSERT INTO my_contacts (last_name, first_name, phone, email, gender, birthday, prof_id, zip_code, status_id)
-VALUES ('Sauer', 'JennySauer', '0872341234', 'jenny@gmail.com', 'F', '2000-01-05', 1, 9300, 1),
-('Smith', 'Erin', '0835716666', 'erin@gmail.com', 'F', '1998-09-17', 2, 4000, 5),
-('Cooper', 'Talika', '0866325786', 'cooper@gmail.com', 'F', '2000-01-30', 3, 5000, 2),
-('Pollard', 'Handre', '0859100084', 'pollard@gmail.com', 'M', '1995-03-13', 4, 6000, 1),
-('Dupteez', 'Cortney', '0842999670', 'cortney@gmail.com', 'F', '1998-04-16', 5, 2551, 6),
-('Bosch', 'Josh', '0835636030', 'josh@gmail.com', 'M', '1990-12-16', 6, 3442, 1),
-('Gaga', 'Tyler', '0839714819', 'Gaga@gmail.com', 'M', '1987-05-05', 7, 4559, 4),
-('Foster', 'Britney', '0834307963', 'britney@gmail.com', 'F', '1993-07-18', 8, 3441, 4),
-('Fox', 'Megan', '0825138355', 'fox@gmail.com', 'F', '1992-09-10', 1, 0095, 3),
-('Synidious', 'Jolleen', '0821185849', 'Jolleen@gmail.com', 'M', '2000-04-29', 2, 9301, 2),
-('Chang', 'Dhiao', '0838839728', 'chang@gmail.com', 'F', '1997-01-08', 2, 4001, 1),
-('Lincoln', 'Abe', '0828266837', 'abe@gmail.com', 'M', '1994-02-08', 3, 5001, 6),
-('Ericson', 'Jay', '0846087530', 'jay@gmail.com', 'M', '1997-04-04', 4, 4559, 1),
-('Kingley', 'Justin', '0825558574', 'justin@gmail.com', 'M', '1991-11-22', 5, 2553, 6),
-('Naudee', 'Charne', '0832358342', 'naudee@gmail.com', 'F', '2001-07-03', 6, 0094, 1);
+VALUES ('Eddy', 'Quma', '0872341234', 'eddy@gmail.com', 'M', '2000-01-05', 1, 9300, 1),
+('Jack', 'Uzaro', '0835716666', 'jack@gmail.com', 'M', '1998-09-17', 2, 4000, 5),
+('Fundo', 'Thibela', '0866325786', 'fundo@gmail.com', 'F', '2000-01-30', 3, 5000, 2),
+('Penny', 'Zulu', '0859100084', 'penny@gmail.com', 'F', '1995-03-13', 4, 6000, 1),
+('Corrin', 'Ngwane', '0842999670', 'corrin@gmail.com', 'F', '1998-04-16', 5, 2551, 6),
+('Vukosi', 'Mkhabela', '0835636030', 'vmk@gmail.com', 'M', '1990-12-16', 6, 3442, 1),
+('Abdile', 'Kwena', '0839714819', 'andile@gmail.com', 'M', '1987-05-05', 7, 4559, 4),
+('Lulama', 'Nkuna', '0834307963', 'lulama@gmail.com', 'F', '1993-07-18', 8, 3441, 4),
+('Ripfumelo', 'Mawila', '0825138355', 'ray@gmail.com', 'F', '1992-09-10', 1, 0095, 3),
+('Jazel', 'Mhlongo', '0821185849', 'Jazel@gmail.com', 'M', '2000-04-29', 2, 9301, 2),
+('Grace', 'Mathebula', '0838839728', 'grace@gmail.com', 'F', '1997-01-08', 2, 4001, 1),
+('Miyi', 'Mamba', '0828266837', 'mahazy@gmail.com', 'M', '1994-02-08', 3, 5001, 6),
+('Nkulu', 'Buyi', '0846087530', 'nkulu@gmail.com', 'M', '1997-04-04', 4, 4559, 1),
+('Steve', 'Mabaso', '0825558574', 'steve@gmail.com', 'M', '1991-11-22', 5, 2553, 6),
+('Nqobile', 'Nkuna', '0832358342', 'nqonk@gmail.com', 'F', '2001-07-03', 6, 0094, 1);
 
 SELECT * FROM my_contacts
 
