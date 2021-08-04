@@ -58,11 +58,11 @@ CREATE TABLE Overtime_Hours (
 );
 
 INSERT INTO Overtime_Hours (overtime_hours)
-VALUES (450),
-	(500),
-	(40),
-	(350),
-	(250);
+VALUES (10),
+	(7),
+	(8),
+	(5),
+	(2);
 	
 CREATE TABLE Employees (
  emp_id bigserial,
